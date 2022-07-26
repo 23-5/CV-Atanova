@@ -1,0 +1,59 @@
+.wrapper{
+	background: lightblue;
+	margin-bottom: 20px;
+	margin-left: 20px;
+}
+
+.hobbies{
+	background: lightgreen;
+}
+
+.education{
+	list-style: none;
+	margin-bottom: 8px;
+}
+
+.list{	
+	list-style: none;
+}
+
+.work{
+	background: lightgray;
+}
+
+.contacts{
+	background: lightcyan;
+	margin-bottom: 16px;
+}
+
+.net{
+	background: lightskyblue;
+	display: flex;
+}
+
+.list li{
+	display: inline;
+	margin-left: 15px;
+}
+
+.number{
+	margin-bottom: 8px;
+	color: darkblue;
+}
+
+.btn{
+	color: white;
+	background: darkgreen;
+	border-radius: 10px;
+}
+
+.info{
+	display: flex;
+	width: 50%;
+}
+
+@media (max-width: 650px){
+	.info{
+		display: block;
+	 }	
+	}
